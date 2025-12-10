@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/aarch64-linux-gnu
+includedir=${exec_prefix}/include/rga
+
+Name: librga
+Description: Rockchip Raster Graphic Acceleration library
+Version: 1.10.5
+Libs: -L${libdir} -lrga
+Cflags: -I${includedir}
